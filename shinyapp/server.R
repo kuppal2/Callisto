@@ -1,6 +1,6 @@
 options(shiny.maxRequestSize=100*1024^2)
 options(shiny.sanitize.errors=FALSE)
-library('xmsPANDA')
+#library('xmsPANDA')
 #library('lsmeans')
 #library('car')
 #library('KEGGREST')
@@ -10,7 +10,7 @@ library(shinyjs)
 library(shinyBS)
 library(DT)
 
-source("R/source_codes/xmsPANDA_v1.0.9.9.R")
+#source("R/source_codes/xmsPANDA_v1.0.9.9.R")
 
 # Server logic
 server <- function(input, output, session) {
